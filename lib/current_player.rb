@@ -3,11 +3,9 @@ def turn_count(board)
   board.each do |position|
     if position != " " or position != "" or position != nil
       turn += 1
-    else
-      turn += 0
     end
+    turn
   end
-  turn
 end
 
 def current_player
