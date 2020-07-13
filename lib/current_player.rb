@@ -13,4 +13,5 @@ def current_player
     "X"
   else
     "O"
+  end
 end
